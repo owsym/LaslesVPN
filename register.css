@@ -1,0 +1,71 @@
+body {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  background: url(Huge\ Global.png);
+  font-family: "Poppins", sans-serif;
+}
+
+#form {
+  width: 300px;
+  margin: 20vh auto 0 auto;
+  padding: 40px;
+  background-color: rgb(246, 246, 246);
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+#form h1 {
+  color: #0f2027;
+  text-align: center;
+}
+
+#form button {
+  background-color: #ffff;
+  color: #f53855;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 900;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 1px solid #f53855;
+  width: 200px;
+  height: 45px;
+  margin-left: 50px;
+}
+
+#form button:hover{
+  color: #ffffff;
+  background-color: #f53855;
+  box-shadow: 2px 13px 26px 0px #f53855;
+}
+
+.input-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-size: 12px;
+  padding: 10px;
+  width: 100%;
+}
+
+.input-control input:focus {
+  outline: 0;
+}
+
+.input-control.success input {
+  border-color: #09c372;
+}
+
+.input-control.error input {
+  border-color: #ff3860;
+}
+
+.input-control .error {
+  color: #ff3860;
+  font-size: 9px;
+  height: 13px;
+}
